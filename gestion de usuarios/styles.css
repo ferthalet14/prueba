@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(img/fernanda.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background-color: hsl(0, 0%, 0%);
+    box-shadow: 0 4px 8px rgb(238, 14, 14);
+    padding: 10px;
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+    color: hsl(0, 14%, 99%);
+}
+
+.user-list, .user-form {
+    background: hsl(60, 1%, 13%);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    
+}
+
+.user-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.user-list ul li {
+    background: #fffffe;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    background: #7e0d00;
+    color: #fffff4;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.delete-btn:hover {
+    background: #f7d205;
+}
+
+.user-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.user-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f8e80c;
+    border-radius: 3px;
+}
+
+.user-form button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.user-form button:hover {
+    background: #000000;
+}
+
+footer {
+    background-color: #000000;
+     box-shadow: 0 4px 8px rgb(238, 14, 14);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+ 

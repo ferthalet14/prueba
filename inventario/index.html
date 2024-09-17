@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.jpeg" type="image/x-icon">
+    <title>Inventario de Almacén</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Inventario de Productos</h1>
+    </header>
+    <div class="container">
+        <h2>Gestión de Inventario</h2>
+        <form id="inventory-form">
+            <input type="text" id="item-name" placeholder="Nombre del artículo" required>
+            <input type="number" id="item-quantity" placeholder="Cantidad" required>
+            <input type="number" id="item-price" placeholder="Precio" step="0.01" required>
+            <button type="submit">Agregar al Inventario</button>
+        </form>
+        <table id="inventory-table">
+            <thead>
+                <tr>
+                    <th>Nombre del Artículo</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tornillo de cabeza plana</td>
+                    <td>100</td>
+                    <td>$5.00</td>
+                    <td><button class="delete-btn">Eliminar</button></td>
+                </tr>
+                <tr>
+                    <td>Clavo de acero inoxidable</td>
+                    <td>50</td>
+                    <td>$10.00</td>
+                    <td><button class="delete-btn">Eliminar</button></td>
+                </tr>
+                <tr>
+                    <td>Varilla de hierro galvanizado</td>
+                    <td>200</td>
+                    <td>$20.00</td>
+                    <td><button class="delete-btn">Eliminar</button></td>
+                </tr>
+                <tr>
+                    <td>Perno de anclaje</td>
+                    <td>30</td>
+                    <td>$15.00</td>
+                    <td><button class="delete-btn">Eliminar</button></td>
+                </tr>
+                <tr>
+                    <td>Alambre de cobre</td>
+                    <td>500</td>
+                    <td>$30.00</td>
+                    <td><button class="delete-btn">Eliminar</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer>
+        <p>&copy;Sistemas Informaticos 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

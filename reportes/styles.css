@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(img/fernanda.jpg);
+    color: #fffefd;
+  }
+  
+  header {
+    background-color: hsl(0, 0%, 0%);
+    box-shadow: 0 4px 8px rgb(238, 14, 14);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  section {
+    background-color: #000000;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #fffefd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #272727;
+    color: #ffffff;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #7c7c7c;
+  }
+  
+  footer {
+    background-color: hsl(0, 0%, 0%);
+    box-shadow: 0 4px 8px rgb(238, 14, 14);
+    padding: 10px;
+    text-align: center;
+    color: #FFFFFF;
+  }

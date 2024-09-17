@@ -1,0 +1,41 @@
+<!-- Página de inicio -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Usuarios</title>
+    <link rel="shortcut icon" href="img/logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestión de Usuarios</h1>
+
+        <div class="user-list">
+            <h2>Lista de Usuarios</h2>
+            <ul>
+                <li>felipe ticona <button class="delete-btn">Eliminar</button></li>
+                <li>ramon valdes<button class="delete-btn">Eliminar</button></li>
+                <li>agripino titoca<button class="delete-btn">Eliminar</button></li>
+            </ul>
+        </div>
+
+        <div class="user-form">
+            <h2>Agregar Usuario</h2>
+            <form id="addUserForm">
+                <label for="username">Nombre de Usuario:</label>
+                <input type="text" id="username" name="username" required>
+                <button type="submit">Agregar</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy;Sistemas Informticos  2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20;
+    padding: 0;
+    background: url(img/fernanda.jpg);
+    color: #ffffff;
+}
+
+header {
+    background-color: hsl(0, 0%, 0%);
+    box-shadow: 0 4px 8px rgb(238, 14, 14);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid hsl(56, 97%, 48%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000000;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #dbb610;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #860808;
+}
+
+footer {
+    background-color: hsl(0, 0%, 0%);
+    box-shadow: 0 4px 8px rgb(238, 14, 14);
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
